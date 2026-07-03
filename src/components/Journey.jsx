@@ -51,11 +51,11 @@ export default function Journey() {
                 strokeDashoffset: 1600,
             });
 
-            tl.to(pathRef.current, { strokeDashoffset: 0, duration: 1.6 });
+            tl.to(pathRef.current, { strokeDashoffset: 0, duration: 2.0 });
             tl.fromTo(
                 trainRef.current,
                 { opacity: 0, scale: 0.8 },
-                { opacity: 1, scale: 1, duration: 0.45 },
+                { opacity: 1, scale: 1, duration: 0.6 },
                 0
             );
 
@@ -73,7 +73,7 @@ export default function Journey() {
                         top: "50%",
                     };
 
-                tl.to(trainRef.current, { duration: 0.75, ...stationTarget, ease: "power2.inOut" }, ">-0.1");
+                tl.to(trainRef.current, { duration: 1.0, ...stationTarget, ease: "power2.inOut" }, ">-0.1");
                 tl.call(() => {
                     stationRefs.current.forEach((station, stationIndex) => {
                         if (!station) return;
@@ -93,7 +93,7 @@ export default function Journey() {
                 tl.fromTo(
                     stationRefs.current[index]?.querySelector(".journey-card"),
                     { opacity: 0, y: 24, scale: 0.96 },
-                    { opacity: 1, y: 0, scale: 1, duration: 0.4, ease: "back.out(1.2)" },
+                    { opacity: 1, y: 0, scale: 1, duration: 0.55, ease: "back.out(1.2)" },
                     "<"
                 );
             });
