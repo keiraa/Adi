@@ -362,6 +362,12 @@ img { display: block; width: 100%; }
   background: linear-gradient(90deg, #7dd8ff, #d3a7ff);
   border-radius: inherit;
   box-shadow: 0 0 20px rgba(125,216,255,0.24);
+  transition: background 0.35s ease, box-shadow 0.35s ease;
+}
+
+.progress-fill.complete {
+  background: linear-gradient(90deg, #34d399, #6ee7b7);
+  box-shadow: 0 0 24px rgba(52, 211, 153, 0.28);
 }
 
 .checklist { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1rem; }
@@ -375,6 +381,12 @@ img { display: block; width: 100%; }
 }
 .check-pill.active { background: rgba(125,216,255,0.2); color: #e7f9ff; transform: translateY(-2px); }
 .check-pill.complete { background: rgba(255,255,255,0.15); color: #fff; }
+.check-pill.success {
+  background: rgba(52, 211, 153, 0.2);
+  color: #b8f7d2;
+  border: 1px solid rgba(52, 211, 153, 0.35);
+  box-shadow: 0 0 18px rgba(52, 211, 153, 0.14);
+}
 
 .scanner-note { margin-top: 0.7rem; }
 

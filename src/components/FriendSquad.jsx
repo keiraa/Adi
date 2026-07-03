@@ -18,7 +18,7 @@ export default function FriendSquad() {
       <div className="achievement-grid">
         {achievements.map((item, index) => (
           <Reveal key={item.title} delay={index * 0.08} className="achievement-card">
-            <ImageWithFallback src={index === 0 ? "/friends-1.jpg" : index === 1 ? "/friends-2.jpg" : "/friends-3.jpg"} alt={item.title} className="achievement-image" />
+            <ImageWithFallback src={index === 0 ? `${import.meta.env.BASE_URL}friends-1.jpg` : index === 1 ? `${import.meta.env.BASE_URL}friends-2.jpg` : `${import.meta.env.BASE_URL}friends-3.jpg`} alt={item.title} className="achievement-image" />
             <div className="achievement-copy">
               <h3>{item.title}</h3>
               <p>{item.copy}</p>
