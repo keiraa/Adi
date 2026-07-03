@@ -8,19 +8,19 @@ gsap.registerPlugin(ScrollTrigger);
 const places = [
   {
     title: "Warangal Fort",
-    img: "/warangal_fort.jpg",
+    img: `${import.meta.env.BASE_URL}warangal_fort.jpg`,
     desc: "Warangal Fort, sagam koolipoyindhi guys.\nArchitecture students ki edho ardhamayyindhi.\nManaki maatram rallu rappalu kanapadday.",
     caption: "Kakatiya samrajyam gurthuga migilina charitra.",
   },
   {
     title: "Thousand Pillar Temple",
-    img: "/thousand_pillar_temple.jpg",
+    img: `${import.meta.env.BASE_URL}thousand_pillar_temple.jpg`,
     desc: "Thousand Pillars!!\nCount cheyyataniki try chesam guys.\n10 varake vacchay.\nTharuvatha unde untay le ani vadhilesam.",
     caption: "Shilpakala ki oka adbhutha udaharanam.",
   },
   {
     title: "Ramappa Temple",
-    img: "/ramappa_temple.jpg",
+    img: `${import.meta.env.BASE_URL}ramappa_temple.jpg`,
     desc: "Dheeniki pedha kadhe undhi guys!!\nMana friends andharu velle antha varaku oppukole kadha assalu.\nRest kooda theesukole.\nEnda manduthunna pattudhala tho vellam.",
     caption: "Telangana garvamga nilichina UNESCO varasatva kshetram.",
   },

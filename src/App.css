@@ -562,7 +562,7 @@ img { display: block; width: 100%; }
   position: absolute; top: 50%; left: 0; transform: translate(-50%, -50%); font-size: 2rem; z-index: 3; filter: drop-shadow(0 0 16px rgba(125,216,255,0.35)); will-change: transform;
 }
 .journey-stop {
-  position: absolute; transform: translate(-50%, -50%); display: flex; align-items: center; justify-content: center; flex-direction: column; min-width: 170px; gap: 0.55rem; pointer-events: none;
+  position: absolute; transform: translate(-50%, -50%); display: flex; align-items: center; justify-content: center; flex-direction: column; min-width: 170px; gap: 0.8rem; pointer-events: none;
 }
 .journey-stop--top { top: 28%; }
 .journey-stop--bottom { top: 72%; }

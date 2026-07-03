@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function ImageWithFallback({ src, alt, className, fallback = '/warangal.jpg', wrapperClassName = '' }) {
+export default function ImageWithFallback({ src, alt, className, fallback = `${import.meta.env.BASE_URL}warangal.jpg`, wrapperClassName = '' }) {
   const [imgSrc, setImgSrc] = useState(src || fallback);
 
   const handleError = () => {

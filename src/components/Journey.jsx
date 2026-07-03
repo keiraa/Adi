@@ -132,8 +132,8 @@ export default function Journey() {
                     const isTop = index % 2 === 0;
                     const isLast = index === stops.length - 1;
                     const stationStyle = isMobile
-                        ? { top: `${(index / Math.max(stops.length - 1, 1)) * 100}%`, left: index % 2 === 0 ? "34%" : "66%" }
-                        : { left: `${(index / Math.max(stops.length - 1, 1)) * 100}%`, top: isTop ? "28%" : "72%" };
+                        ? { top: `${(index / Math.max(stops.length - 1, 1)) * 100}%`, left: index % 2 === 0 ? "28%" : "72%" }
+                        : { left: `${(index / Math.max(stops.length - 1, 1)) * 100}%`, top: isTop ? "22%" : "78%" };
 
                     return (
                         <div

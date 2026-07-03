@@ -2,9 +2,9 @@ import { useState } from "react";
 import Reveal from "./Reveal";
 
 const bites = [
-  { title: "Mandi", img: "/mandi.jpg", line: "Mandi King anukunta.\nSuper undhi.\nTry cheyyandi eppudaina velthe.\nSeat dhorakakapothe cheppandi.\nAkhi friend dhe.\nThanu okka call kodithe unnavallani lepesi koorchopedatharu.", tag: "The main event" },
-  { title: "Tea", img: "/tea.jpg", line: "Manam pedda tea lovers kadhu re.\nBut Warangal lo nellu aina tasty gane untundhi.\nHehe.", tag: "Tiny comfort, huge mood" },
-  { title: "Mirchi Bajji", img: "/mirchi_bajji.jpg", line: "Hmm!\nGoogle thalli decision guys idhi.\nManaki pedda idea ledhu.\nBut indhaka cheppinattu Warangal kanuka baguntundhi ani mark veseyocchu.", tag: "Crunchy bravery" },
+  { title: "Mandi", img: `${import.meta.env.BASE_URL}mandi.jpg`, line: "Mandi King anukunta.\nSuper undhi.\nTry cheyyandi eppudaina velthe.\nSeat dhorakakapothe cheppandi.\nAkhi friend dhe.\nThanu okka call kodithe unnavallani lepesi koorchopedatharu.", tag: "The main event" },
+  { title: "Tea", img: `${import.meta.env.BASE_URL}tea.jpg`, line: "Manam pedda tea lovers kadhu re.\nBut Warangal lo nellu aina tasty gane untundhi.\nHehe.", tag: "Tiny comfort, huge mood" },
+  { title: "Mirchi Bajji", img: `${import.meta.env.BASE_URL}mirchi_bajji.jpg`, line: "Hmm!\nGoogle thalli decision guys idhi.\nManaki pedda idea ledhu.\nBut indhaka cheppinattu Warangal kanuka baguntundhi ani mark veseyocchu.", tag: "Crunchy bravery" },
 ];
 
 export default function FoodCulture() {
@@ -21,7 +21,7 @@ export default function FoodCulture() {
         {bites.map((bite, index) => (
           <Reveal key={bite.title} delay={index * 0.1} className="glass-card food-card">
             <div className="food-image-wrap">
-              <img src={bite.img} alt={bite.title} className="food-image" onError={(e) => { e.currentTarget.src = "/warangal.jpg"; }} />
+              <img src={bite.img} alt={bite.title} className="food-image" onError={(e) => { e.currentTarget.src = `${import.meta.env.BASE_URL}warangal.jpg`; }} />
             </div>
             <p className="mini-tag">{bite.tag}</p>
             <h3
