@@ -55,14 +55,14 @@ export default function Hero() {
       <div ref={imageRef} className="hero-media">
         <div className="hero-backdrop">
           <ImageWithFallback
-            src="/warangal.jpg"
+            src={`${import.meta.env.BASE_URL}warangal.jpg`}
             alt=""
             className="hero-backdrop-image"
           />
         </div>
 
         <ImageWithFallback
-          src="/warangal.jpg"
+          src={`${import.meta.env.BASE_URL}warangal.jpg`}
           alt="Warangal city view"
           className="hero-image"
         />

@@ -10,7 +10,7 @@ export default function Observations() {
       </Reveal>
 
       <Reveal delay={0.1} className="focus-card">
-        <ImageWithFallback src="/side-look.jpg" alt="A quiet side look" className="observation-image" />
+        <ImageWithFallback src={`${import.meta.env.BASE_URL}side-look.jpg`} alt="A quiet side look" className="observation-image" />
         <div className="focus-caption">
           <p>Kaani konni saarlu... focus evaru ekkada pettaro kuda telusthundhi.</p>
         </div>

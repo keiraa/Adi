@@ -11,7 +11,7 @@ export default function Jumanji() {
 
       <div className="jumanji-layout">
         <Reveal delay={0.1} className="glass-card jumanji-card">
-          <ImageWithFallback src="/jumanji-group.jpg" alt="Adventure group" className="jumanji-image" />
+          <ImageWithFallback src={`${import.meta.env.BASE_URL}jumanji-group.jpg`} alt="Adventure group" className="jumanji-image" />
         </Reveal>
 
         <Reveal delay={0.18} className="glass-card stats-card game-card">

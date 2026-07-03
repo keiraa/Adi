@@ -16,7 +16,7 @@ export default function BirthdayMessage() {
       <div className="ending-content">
         {showImage ? (
           <div className="instant-photo">
-            <ImageWithFallback src="/instant-camera.jpg" alt="Birthday instant photo" className="ending-image" />
+            <ImageWithFallback src={`${import.meta.env.BASE_URL}instant-camera.jpg`} alt="Birthday instant photo" className="ending-image" />
           </div>
         ) : null}
         <h2>Happy Birthday Akhi ✨</h2>

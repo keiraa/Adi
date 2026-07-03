@@ -10,7 +10,7 @@ export default function LocalGuide() {
       </Reveal>
 
       <Reveal delay={0.1} className="postcard-card">
-        <ImageWithFallback src="/warangal-trip.jpg" alt="Trip postcard" className="postcard-image" />
+        <ImageWithFallback src={`${import.meta.env.BASE_URL}warangal-trip.jpg`} alt="Trip postcard" className="postcard-image" />
         <div className="postcard-content">
           <div className="memory-tag">Professional Guide. 😌</div>
           <p>Warangal lo guide ante Thane.</p>
