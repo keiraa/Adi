@@ -4,7 +4,7 @@ import ImageWithFallback from "./ImageWithFallback";
 const achievements = [
   { title: "Konni Avasaram Leni Memories 😛", copy: "Sarle, avasaram leni memory kaadhu le...\nEndhukante ee parichayam lekapothe mana kalavadam ayyedhe kadhu. 😌" },
   { title: "Sudden Plans", copy: "Adventure ante pedda pedda drifts ayyayi... 😭😂\nKaani secret le...\nWhat happens in Drift Raja,\nstays in Drift Raja. 🤫🚗" },
-  { title: "Random Plans", copy: "Juice kosam bayalderam.\nKanipinchindhi ani Giant Wheel ekkesam. 🎡😂\nInka ilanti quick decisions chala unnayi...\nKaani ikkaditho aapeddham.\nIntha random ga Google Maps kooda route marchadhu. 😭😂\nThose were the days...\n(2 days, hehe. 🤭)" },
+  { title: "Random Plans", copy: "Juice kosam bayalderam.\nKanipinchindhi ani Giant Wheel ekkesam. 🎡😂\nInka ilanti quick decisions chala unnayi like Leg touch...\nKaani ikkaditho aapeddham.\nIntha random ga Google Maps kooda route marchadhu. 😭😂\nThose were the days...\n(2 days, hehe. 🤭)" },
 ];
 
 export default function FriendSquad() {

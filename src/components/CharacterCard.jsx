@@ -6,7 +6,7 @@ const statRows = [
   { label: "Special Ability", value: "Katthulatho kaadhu...\nKanti choopu tho champesthundhi.\nStill cute ga untundhi." },
   { label: "Secondary Ability", value: "Sleeping." },
   { label: "Hobbies", value: "• Sleeping\n• Sleeping\n• Sleeping\n• Inka konchem Sleeping" },
-  { label: "Identified As", value: '"Dad\'s little princess"\n"Mom\'s whole world"\nIlantivi cheppe rakam kadhu\nWarangal Native Hybrid Pilla.\nKelkithe Khel Katham."' },
+  { label: "Inspiration", value: '"Abdul Kalam" just because \'Kalalu Kanamannaru Ganuka\'' },
   { label: "Ishtam Aina Pani", value: "Sleeping." },
   { label: "Favourite Food", value: "Mandi.\nFull spice undali royyy." },
 ];
@@ -49,7 +49,7 @@ export default function CharacterCard() {
           <div className="character-name-block">
             <div className="badge-row">
               <span className="badge-pill">Akhi</span>
-              <span className="badge-pill clickable-label" onClick={() => setTingariNote("Title still under review.")}>Tingari</span>
+              <span className="badge-pill clickable-label">Gundu</span>
             </div>
             <h3>Akshaya Adi</h3>
             <p className="character-tagline">Warangal native hybrid pilla. Soft voice. Strong opinions.</p>

@@ -6,7 +6,7 @@ export default function Observations() {
     <section className="story-section observation-section">
       <Reveal className="section-heading narrow-heading">
         <p className="eyebrow">Things I accidentally noticed</p>
-        <h2>Photo lo focus camera ekkada pettindo telusthundhi.</h2>
+        <h2>Camera focus evaripaina undo photo chepthundhi...</h2>
       </Reveal>
 
       <Reveal delay={0.1} className="focus-card">
