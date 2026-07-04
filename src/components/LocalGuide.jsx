@@ -13,10 +13,11 @@ export default function LocalGuide() {
         <ImageWithFallback src={`${import.meta.env.BASE_URL}warangal-trip.jpg`} alt="Trip postcard" className="postcard-image" />
         <div className="postcard-content">
           <div className="memory-tag">Professional Guide. 😌</div>
-          <p>Warangal lo guide ante Thane.</p>
+          <p>Warangal lo guide ante Thane</p>
           <p>Kaani itinerary matram fixed...</p>
           <p>Same 3–4 places. 😭😂</p>
           <p>Just kidding.</p>
+          <p>Best Activities in Warangal: Leg Touch</p>
         </div>
       </Reveal>
     </section>
