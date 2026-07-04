@@ -7,7 +7,7 @@ const statRows = [
   { label: "Secondary Ability", value: "Sleeping." },
   { label: "Hobbies", value: "• Sleeping\n• Sleeping\n• Sleeping\n• Inka konchem Sleeping" },
   { label: "Inspiration", value: '"Abdul Kalam" just because \'Kalalu Kanamannaru Ganuka\'' },
-  { label: "Fav Song", value: "Rakshasudela priyudu chalu", audio: `${import.meta.env.BASE_URL}song.mp3` },
+  { label: "Fav Song", value: "", audio: `${import.meta.env.BASE_URL}song.mp3` },
   { label: "Ishtam Aina Pani", value: "Sleeping." },
   { label: "Favourite Food", value: "Mandi.\nFull spice undali royyy." },
 ];
