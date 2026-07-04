@@ -8,7 +8,7 @@ export default function HiddenGem() {
         <Reveal className="split-copy">
           <p className="eyebrow">Hidden gem</p>
           <h2>Official ga tourism list lo lekapoyina...</h2>
-          <p>Konni attractions marchipovadam kastam. Kaani vaati gurinchi manam eppudu marchipolenu.</p>
+          <p>Konni attractions marchipovadam kastam. Kaani vaati gurinchi nenu eppudu marchipolenu.</p>
         </Reveal>
 
         <Reveal delay={0.15} className="photo-stage-card">

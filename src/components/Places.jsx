@@ -15,7 +15,7 @@ const places = [
   {
     title: "Thousand Pillar Temple",
     img: `${import.meta.env.BASE_URL}thousand_pillar_temple.jpg`,
-    desc: "Thousand Pillars!!\nCount cheyyataniki try chesam guys.\n10 varake vacchay.\nTharuvatha unde untay le ani vadhilesam.",
+    desc: "Thousand Pillars!!\nCount cheyyataniki try cheyyakandi guys.\nFree advice: Summer lo vellaru ante mee lopala unna Michael Jackson bayataki vasthadu. 🕺🔥",
     caption: "Shilpakala ki oka adbhutha udaharanam.",
   },
   {
