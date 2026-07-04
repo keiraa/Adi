@@ -509,6 +509,17 @@ img { display: block; width: 100%; }
 .character-bio { border-top: 1px solid rgba(255,255,255,0.12); padding-top: 1rem; position: relative; z-index: 2; }
 .skill-list { display: grid; gap: 0.8rem; }
 .skill-item { display: flex; flex-direction: column; gap: 0.15rem; padding: 0.6rem 0.7rem; border-radius: 16px; background: rgba(255,255,255,0.05); }
+.skill-header { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
+.song-button {
+  border: 0;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(141, 230, 255, 0.18);
+  color: #eaf9ff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+}
 .stat-value { white-space: pre-line; }
 .sleep-hint { margin-top: 0.8rem; font-size: 0.9rem; opacity: 0.8; }
 .sleep-button {
